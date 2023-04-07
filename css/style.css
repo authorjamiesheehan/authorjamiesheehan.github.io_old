@@ -197,8 +197,12 @@ main.contact {
     background-color: #F5F0E9;
     width: 80%;
     margin: 0 auto;
-    padding: 10px 15px;
-    padding-top: 90px;
+    padding: 30px 15px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .contact .social_links ul {
@@ -229,4 +233,7 @@ main.contact {
 
 .contact .social_links .ig-link:hover {
     color: #f02f70;
+}
+
+.constact .social_links > a {
 }
