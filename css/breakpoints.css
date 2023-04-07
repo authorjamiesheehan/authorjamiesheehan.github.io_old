@@ -1,0 +1,35 @@
+@media only screen and  (max-width: 1199px){
+    .home section.intro {
+        margin: 0;
+        width: 100%;
+        padding: 100px 20px 30px 20px;
+    }
+
+    .instagram-media, .instagram-media-rendered {
+        max-width: 60% !important;
+    }
+}
+
+/* Screens 768px to 991px wide (phones in landscape mode, small tablets) */
+@media only screen and (max-width: 991px) {
+    .home section.hero {
+        width: 100%;
+    }
+    .instagram-media, .instagram-media-rendered {
+        max-width: 80% !important;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home .hero a {
+        width: 80%;
+    }
+}
+
+/* up to 767px wide (phones in portrait mode) */
+@media only screen and (max-width: 767px) {
+
+}
