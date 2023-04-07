@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1199px){
-    .home section.intro {
+    .contact section.intro {
         margin: 0;
         width: 100%;
         padding: 100px 20px 30px 20px;
@@ -9,7 +9,7 @@
         max-width: 60% !important;
     }
 
-    .contact .hero img {
+    .home .hero img {
         width: 70%;
         margin-top: 30px;
     }
@@ -17,7 +17,7 @@
 
 /* Screens 768px to 991px wide (phones in landscape mode, small tablets) */
 @media only screen and (max-width: 991px) {
-    .home section.hero {
+    .contact section.hero {
         width: 100%;
     }
     .instagram-media, .instagram-media-rendered {
@@ -29,32 +29,32 @@
         justify-content: center;
     }
 
-    .home .hero a {
+    .contact .hero a {
         width: 80%;
     }
 
-    .contact .social_links ul {
+    .home .social_links ul {
         width: 60%;
     }
 }
 
 /* up to 767px wide (phones in portrait mode) */
 @media only screen and (max-width: 767px) {
-    main.contact {
+    main.home {
         flex: 1;
     }
 
-    .contact .hero img {
+    .home .hero img {
         width: 90%;
     }
 
-    .contact .social_links {
+    .home .social_links {
         width: 100%;
         min-height: 300px;
         flex-grow: 1;
     }
 
-    .contact .social_links ul {
+    .home .social_links ul {
         width: 70%;
     }
 }

@@ -115,24 +115,24 @@ footer {
 }
 
 /* ---------- */
-/* Home Page */
+/* Contact Page */
 /* ---------- */
 
-.home .hero {
+.contact .hero {
     z-index: 1;
     width: 60%;
     margin: 0 auto;
     position: relative;
 }
 
-.home .hero img {
+.contact .hero img {
     width: 100%;
     /* border-radius: 3px; */
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: -70px;
 }
 
-.home .hero a {
+.contact .hero a {
     padding: 2px 30px;
     
     width: 20%;
@@ -151,13 +151,13 @@ footer {
     justify-content: center;
 }
 
-.home .hero a:hover, .home .hero a:active {
+.contact .hero a:hover, .contact .hero a:active {
     background-color: #ffffffbb;
     transform: scale(1.02);
     transform: translateY(2px);
 }
 
-.home .intro {
+.contact .intro {
     width: 90%;
     margin: 0 auto;
     background-color: #F5F0E9;
@@ -174,26 +174,26 @@ footer {
 }
 
 /* -------- */
-/* Contact */
+/* Home */
 /* -------- */
 
-main.contact {
+main.home {
     display: flex;
     flex-direction: column;
 }
 
-.contact .hero {
+.home .hero {
     z-index: 1;
 }
 
-.contact .hero img {
+.home .hero img {
     width: 50%;
     margin: 0 auto;
     margin-bottom: -80px;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
-.contact .social_links {
+.home .social_links {
     background-color: #F5F0E9;
     width: 80%;
     margin: 0 auto;
@@ -205,7 +205,7 @@ main.contact {
     /* justify-content: center; */
 }
 
-.contact .social_links ul {
+.home .social_links ul {
     display: flex;
     min-width: fit-content;
     width: 30%;
@@ -215,23 +215,23 @@ main.contact {
     justify-content: space-between;
 }
 
-.contact .social_links ul li {
+.home .social_links ul li {
     list-style-type: none;
 }
 
-.contact .social_links ul li a svg {
+.home .social_links ul li a svg {
     width: 48px;
 }
 
-.contact .social_links ion-icon {
+.home .social_links ion-icon {
     font-size: 48px;
 }
 
-.contact .social_links .pinterest-link:hover {
+.home .social_links .pinterest-link:hover {
     color: #E60023;
 }
 
-.contact .social_links .ig-link:hover {
+.home .social_links .ig-link:hover {
     color: #f02f70;
 }
 
