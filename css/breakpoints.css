@@ -21,6 +21,29 @@
     .home .social_links ul {
         width: 80%;
     }
+
+    main.about .bio {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    main.about .bio img {
+        grid-area: 1 / 1 / 13 / 6;
+    }
+    
+    main.about .bio > div {
+        grid-area: 1 / 2 / 13 / 13;
+    }
+
+    main.books .book img {
+        /* grid-area: row-start / col-start / row-end / col-end; */
+        grid-area: 1 / 1 / 13 / 5;
+    }
+    
+    main.books .book > div {
+        grid-area: 2 / 4 / 13 / 13;
+        padding: 20px 4% 20px calc(10% + 4%);
+    }
 }
 
 /* Screens 768px to 991px wide (phones in landscape mode, small tablets) */
@@ -40,7 +63,6 @@
     .contact .hero a {
         width: 80%;
     }
-
     /* .home .social_links ul {
         width: 60%;
     } */
@@ -48,19 +70,49 @@
 
 /* up to 767px wide (phones in portrait mode) */
 @media only screen and (max-width: 767px) {
-    /* main.home { */
-        /* flex: 1; */
-    /* } */
-
     .home .hero img {
         width: 90%;
     }
-
     .home .social_links {
         width: 80%;
     }
 
-    /* .home .social_links ul {
-        width: 70%;
-    } */
+    main.about .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    main.about .bio img {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    main.about .bio h1 {
+        padding: 0px 10px;
+        margin: 30px;
+        /* margin-bottom: -20px; */
+    }
+
+    main.about .bio > div > div {
+        padding: 10px 45px;
+    }
+
+    main.books .book {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    main.books .book img {
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: -30px;
+    }
+    main.books .book > div {
+        padding: 20px;
+        font-size: 0.9em;
+    }
 }
