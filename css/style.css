@@ -245,7 +245,8 @@ main.about .bio {
     max-width: 1500px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-template-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     padding: 50px;
@@ -261,7 +262,7 @@ main.about .bio {
 main.about .bio img {
     max-width: 100%;
     /* grid-area: a-start / a-start / b-start / o-end; */
-    grid-area: 1 / 1 / 5 / 3;
+    grid-area: 1 / 1 / 2 / 3;
     z-index: 1;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
@@ -275,7 +276,7 @@ main.about .bio h1 {
 
 main.about .bio > div {
     /* grid-area: d-start / o-start / d-end / d-end; */
-    grid-area: 1 / 2 / 5 / 6;
+    grid-area: 1 / 2 / 2 / 6;
     text-align: center;
 }
 
