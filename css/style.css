@@ -236,6 +236,10 @@ main.home {
     color: #f02f70;
 }
 
+.home .social_links .spotify-link:hover {
+    color: #1ED560;
+}
+
 /* -------- */
 /* About */
 /* -------- */
