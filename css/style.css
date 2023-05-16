@@ -234,11 +234,11 @@ main.home {
 }
 
 .home .social_links ul li a:link, .home .social_links ul li a:visited {
-    color: #333;
+    color: #24496c;
 }
 
-.home .social_links ul li a:link, .home .social_links ul li a:hover {
-    color: #555;
+.home .social_links ul li a:active, .home .social_links ul li a:hover {
+    color: #6d91b4;
 }
 
 .home .social_links .pinterest-link:hover {
