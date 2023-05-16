@@ -11,11 +11,11 @@ html {
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 18px;
     min-height: 100vh;
     /* display: grid; */
-    background-color: #f5faff;
+    /* background-color: #f5faff; */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -31,12 +31,14 @@ header {
 
 .logo {
     font-size: 2.5em;
+    font-weight: 300;
     user-select: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: #444;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 300;
     /* font-weight: normal; */
 }
 
@@ -50,7 +52,7 @@ a {
 }
 
 a:link, a:visited {
-    /* color: #333; */
+    color: #333;
     color: #a37b42;
 }
 
@@ -96,10 +98,13 @@ ul.social_icons {
 
 ul.main_nav li a:link, ul.main_nav li a:visited {
     border-bottom: 2px solid rgba(0,0,0,0);
+    color: #333;
 }
 
 ul.main_nav li a:hover, ul.main_nav li a:active {
-    border-bottom: 2px solid #ccab7d;
+    /* border-bottom: 2px solid #ccab7d; */
+    color: #555;
+    border-bottom: 2px solid #333;
 }
 
 /* ---------- */
@@ -228,6 +233,14 @@ main.home {
     font-size: 48px;
 }
 
+.home .social_links ul li a:link, .home .social_links ul li a:visited {
+    color: #333;
+}
+
+.home .social_links ul li a:link, .home .social_links ul li a:hover {
+    color: #555;
+}
+
 .home .social_links .pinterest-link:hover {
     color: #E60023;
 }
@@ -238,6 +251,13 @@ main.home {
 
 .home .social_links .spotify-link:hover {
     color: #1ED560;
+}
+
+.home .social_links .substack-link:link, .home .social_links .substack-link:visited {
+    color: #47698b;
+}
+.home .social_links .substack-link:active, .home .social_links .substack-link:hover {
+    color: #6d91b4;
 }
 
 /* -------- */
@@ -251,7 +271,7 @@ main.about .bio {
     display: grid;
     /* grid-template-rows: repeat(5, 1fr); */
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     width: 100%;
     padding: 50px;
 }
@@ -266,7 +286,7 @@ main.about .bio {
 main.about .bio img {
     max-width: 100%;
     /* grid-area: a-start / a-start / b-start / o-end; */
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 7;
     z-index: 1;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
@@ -274,19 +294,19 @@ main.about .bio img {
 main.about .bio h1 {
     text-align: center;
     grid-area: x;
-    padding: 20px 8% 20px 36%;
+    padding: 20px 8% 20px 22%;
     font-size: 2.5em;
 }
 
 main.about .bio > div {
     /* grid-area: d-start / o-start / d-end / d-end; */
-    grid-area: 1 / 2 / 2 / 6;
+    grid-area: 1 / 6 / 2 / 13;
     text-align: center;
 }
 
 main.about .bio > div > div {
     background-color: #F5F0E9;
-    padding: 20px 4% 20px calc(33.33% + 4%);
+    padding: 20px 4% 20px calc(14% + 4%);
 }
 
 main.about .bio > div > div > p {
