@@ -217,6 +217,7 @@ main.home {
     width: 60%;
     margin: 10px auto;
     padding: 30px 0px;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -253,12 +254,16 @@ main.home {
     color: #1ED560;
 }
 
-.home .social_links .substack-link:link, .home .social_links .substack-link:visited {
+.home .social_links .substack-link {
+    font-size: 1.2em;
+    font-weight: 300;
     color: #47698b;
+    margin: 0px 5px 10px 5px;
+    text-align: center;
 }
-.home .social_links .substack-link:active, .home .social_links .substack-link:hover {
+/* .home .social_links .substack-link:active, .home .social_links .substack-link:hover {
     color: #6d91b4;
-}
+} */
 
 /* -------- */
 /* About */
@@ -351,4 +356,17 @@ main.books p {
 main.books p.tiny-text {
     font-size: 0.9em;
     font-weight: light;
+}
+
+#custom-substack-embed * {
+    font-weight: 300;
+    font-family: Nunito, sans-serif !important;
+}
+
+.debug-border {
+    border: 1px solid red;
+}
+
+.custom-substack-widget {
+    margin: auto;
 }
