@@ -298,7 +298,7 @@ main.about .bio img {
 
 main.about .bio h1 {
     text-align: center;
-    grid-area: x;
+    /* grid-area: x; */
     padding: 20px 8% 20px 22%;
     font-size: 2.5em;
 }
@@ -332,6 +332,14 @@ main.books .book {
     padding: 50px;
 }
 
+main.books .book h1 {
+    text-align: center;
+    grid-area: x;
+    padding: 20px 8% 20px 22%;
+    font-size: 2.5em;
+    padding: 20px 4% 20px calc(25% + 4%);
+}
+
 main.books .book img {
     max-width: 100%;
     /* grid-area: a-start / a-start / b-start / o-end; */
@@ -343,10 +351,14 @@ main.books .book img {
 
 main.books .book > div {
     /* grid-area: d-start / o-start / d-end / d-end; */
-    grid-area: 2 / 5 / 13 / 13;
+    grid-area: 1 / 5 / 13 / 13;
+}
+
+main.books .book > div > div {
+    padding: 20px 4% 20px calc(25% + 4%);
     text-align: center;
     background-color: #F3F4F6;
-    padding: 20px 4% 20px calc(25% + 4%);
+    /* grid-area: 2 / 5 / 13 / 13; */
 }
 
 main.books p {
