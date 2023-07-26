@@ -356,6 +356,7 @@ main.books p {
 main.books p.tiny-text {
     font-size: 0.9em;
     font-weight: light;
+    color: #777;
 }
 
 #custom-substack-embed * {
