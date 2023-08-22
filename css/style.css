@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+::selection {
+    /* background-color: #d3a360; */
+    background-color: #a1b7cc;
+    /* background-color: #24496c; */
+    color: #fafafa;
+  }
+
 html {
     scroll-behavior: smooth;
 }
@@ -40,6 +47,22 @@ h1,h2,h3,h4,h5,h6 {
     /* font-weight: bold; */
     font-weight: 300;
     /* font-weight: normal; */
+}
+
+.bold {
+    font-weight: normal;
+}
+
+.left-align {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 
 /* ---------- */
@@ -167,6 +190,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     background-color: #F5F0E9;
+    font-size: 1.1em;
     padding: 100px 2% 30px 2%;
     /* z-index: -1; */
     /* transform: translateY(-100px); */
@@ -306,7 +330,7 @@ main.about .bio h1 {
 main.about .bio > div {
     /* grid-area: d-start / o-start / d-end / d-end; */
     grid-area: 1 / 6 / 2 / 13;
-    text-align: center;
+    /* text-align: center; */
 }
 
 main.about .bio > div > div {
@@ -315,7 +339,7 @@ main.about .bio > div > div {
 }
 
 main.about .bio > div > div > p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* -------- */
@@ -356,13 +380,12 @@ main.books .book > div {
 
 main.books .book > div > div {
     padding: 20px 4% 20px calc(25% + 4%);
-    text-align: center;
     background-color: #F3F4F6;
     /* grid-area: 2 / 5 / 13 / 13; */
 }
 
 main.books p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 main.books p.tiny-text {
