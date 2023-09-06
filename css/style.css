@@ -197,10 +197,15 @@ footer {
     text-align: center;
 }
 
+.ig_embed {
+    display: flex;
+    justify-content: center;
+}
+
 .instagram-media, .instagram-media-rendered {
-    max-width: 40% !important;
-    width: 100% !important;
-    margin: 0 auto !important;
+    /* max-width: 40% !important; */
+    /* width: 100% !important; */
+    /* margin: 0 auto !important; */
 }
 
 /* -------- */
