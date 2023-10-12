@@ -5,9 +5,9 @@ window.addEventListener('load', () => {
         '/about/',
         '/books/',
         '/contact/',
-        '/img/contact_freddy-castro-unsplash-min.jpg',
-        '/img/about_alvaro-serrano-min.jpg',
-        '/img/temp_cover_HLS-min.png',
-        '/img/home_anton-sharov-unsplash-min.jpg'
+        '/img/contact_freddy-castro-unsplash-min.webp',
+        '/img/about_alvaro-serrano-min.webp',
+        '/img/temp_cover_HLS-min.webp',
+        '/img/home_anton-sharov-unsplash-min.webp'
     ]);
 });
